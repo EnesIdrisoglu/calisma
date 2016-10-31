@@ -1,0 +1,137 @@
+@import "homepage";
+@import "doctors";
+@import "gallery";
+@import "iletisim";
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:400,500&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=latin-ext');
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    background: #fff !important;
+}
+
+
+/** Slider **/
+    .slider-wrapper {
+        position: fixed !important;
+        z-index: -1 !important;
+        margin: 70px auto;
+        border: 0 solid transparent !important;
+        background: #f1f1f1 !important;
+        box-shadow: 0 0 0 transparent !important;
+    }
+    .fs_loader{
+        background: #f1f1f1 !important;
+        height: 700px;
+    }
+    #sloganS{
+        font-size: 4.4rem;
+        font-weight: 700;
+        color: rgb(82, 99, 113) !important;
+    }
+    #sloganS2{
+        font-family: 'Asap', sans-serif;
+        font-size: 5.2rem;
+        font-weight: 500;
+        color: #fff;
+        opacity: 1;
+        span:first-child{
+            opacity: 1;
+            transform: scale(1);
+            animation: 1s slogns;
+        }
+        span:last-child{
+            opacity: 1;
+            transform: scale(1);
+            animation-name: slogns;
+            animation-duration: 1s; 
+        }
+    }
+    @keyframes slogns{
+        from{
+            transform: scale(3.5);
+            opacity: 0;
+        }
+        to{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    #cerrah{
+        height: 431px !important;
+        width: auto !important;
+        left: 3% !important;
+        top: 2% !important;
+        transform: scale(1.5);
+        animation: 15s cerrahani;
+    }
+    @keyframes cerrahani{
+        from{transform: scale(1)}
+        to{transform: scale(1.5)}
+    }
+
+    .slidericons{
+        padding: 10px;
+     
+        img{
+            margin: 0 45px !important;
+            width: 90px !important;
+            height: 90px !important;
+            cursor: pointer;
+            &:hover ~ span{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        span{
+            line-height: 14px;
+            color: rgb(82, 99, 113);
+            width: 180px !important;
+            font-weight: 500;
+            display: block !important;
+            margin-top: 5px;
+            text-align: center;
+            opacity: 1;
+            transition: .1s all ease;
+        }
+  
+    }
+      blockquote{
+            font-size: 18px;
+            display: block;
+            width: 500px !important;
+    }
+    .okayNav-header{
+        a{
+            margin-left: 4%;
+        }
+        nav{
+            margin-right: 6%;
+        }
+    }
+
+    #kadin{
+        transform: scale(1) translate(-80px,-20px);
+        animation: 1s kadina;
+    }
+    @keyframes kadina{
+        from{
+            transform: scale(0) translate(0,0);
+        }
+        to{
+            transform: scale(1) translate(-80px,-20px);
+        }
+    }
+    #ekip{
+        transform: scale(.9) translate(-80px,-20px);
+        animation: 1.5s ekipan;
+    }
+    @keyframes ekipan{
+        from{
+            transform: scale(0) translate(0,0);
+        }
+        to{
+            transform: scale(.9) translate(-80px,-20px);
+        }
+    }

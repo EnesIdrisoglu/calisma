@@ -1,0 +1,301 @@
+.SliderRev{
+    //margin-top: 70px;
+    position: relative;
+    height: 500px;
+    z-index: 99;
+    .swiper-container {
+			width: 100%;
+			height: 100%;
+            position: fixed;
+		}
+		
+		.swiper-slide {
+			background-position: center;
+			background-size: cover;
+		}
+    
+}
+nav{
+    li{
+        a{
+            color: rgb(82, 99, 113) !important;
+            font-weight: 400 !important;
+            font-size: 1.8rem !important;
+        }
+        &:hover a{
+            color: #3c97e8 !important;
+        }
+    }
+    .active{
+        a{
+            color: #3c97e8 !important;
+            font-weight: 400 !important;
+            font-size: 1.8rem !important;
+        }
+        
+    }
+}
+header{
+    position: fixed;
+    z-index: 999;
+    img{
+        margin-left: 100px;
+    }
+}
+.working-time{
+    position: relative;
+    height: 350px;
+    z-index: 999;
+    background-color: white;
+    .maviBolge{
+        position: relative;
+        top: -70px;
+        margin: 0 auto;
+        width: 1200px;        
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        .menuNav{
+            background-color: white;
+            width: inherit;
+            height: 75px;
+            li{
+                float: left;
+                width: 50%;
+                height: inherit;
+                font-size: 26px;
+                padding-left: 30px;
+                padding-top: 20px;
+                -webkit-transition-duration: 0.5s; 
+                transition-duration: 0.5s;
+                cursor:pointer;
+            }
+            li:not(.active):hover ,li.active{
+                background-color: #3c97e8;
+                color: white;
+            }
+        }
+        .DortluAlan
+        {
+            width: 100%;
+            height: 220px;
+            background-color: #3c97e8;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            #Hakkimizda{
+            display: block;
+            }
+            #Musteri{
+            display: none;
+                i{
+                    position: absolute;
+                    color: white;
+                    font-size: 90px;
+                    left: 165px;
+                    top: 86px;
+                    opacity: 0.2;
+                }
+            }
+        }
+
+        .dortunBir{
+            float:left;
+            width: 292.5px;
+            height: 220px;
+            position: relative;
+            table{
+                    position: absolute;
+                    top: 100px;
+                    left: 20px;
+                    width: 250px;
+                    color:white;
+                    tbody{
+                        line-height: 30px;
+                            font-weight: 300;
+                        tr{
+                            border-bottom: 1px solid white;
+                                td{
+                                //padding-right: 30px;
+                            }
+                        }
+                    }
+
+            }
+            .baslik{
+                text-align: center;
+                margin-top: 40px;
+                    i{
+                    font-size: 24px;
+                    color: #dfdfdf;
+                }
+                span{
+                    font-size: 22px;
+                    color: white;
+                    margin-left: 10px;
+                }
+                a{
+                    width: 50%;
+                    padding: 2px;
+                    height: 28px;
+                    border-radius: 14px;
+                    border: 2px solid #fff;
+                    display: block;
+                    color: #fff;
+                    margin: 7px auto;
+                    transition: .1s all ease;
+                    &:hover{
+                        background: #fff;
+                        color: #0015a1;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            h2{
+                position: absolute;
+                top: 120px;
+                left: 25px;
+                color: #acefe2;
+                font-size: 24px;
+            }
+            p{
+                position: absolute;
+                top: 110px;
+                display: table;
+                vertical-align: middle;
+                text-align: center;
+                color: #d8d7d7;
+                font-size: 16px;
+            }
+        }
+        .AcilDurum{
+            width: 585px;
+            height: 220px;
+            float: left;
+            position: relative;
+            .baslik{
+                text-align: center;
+                margin-top: 40px;
+                img{
+                    width: 70px;
+                }
+                i{
+                    font-size: 24px;
+                    color: #dfdfdf;
+                }
+                span{
+                    font-size: 22px;
+                    color: white;
+                    margin-left: 10px;
+                }
+            }
+            h2{
+                text-align: center;
+                color: #fff;
+                font-size: 3rem;
+            }
+            p{
+                text-align: center;
+                color: #d8d7d7;
+            }
+        }
+        .unslider{
+                .YorumContainer{
+                    position: relative;
+                    width: 750px;
+                    height: 220px;
+                    color: white;
+                    margin:0 auto;
+                    ul{
+                        position: relative;
+                        margin: 0 !important;
+                        padding: 0;
+                        li{
+                            height: 100px;
+                            position: relative;
+                            float: left;
+                            margin-top: 50px;
+                            font-size: 1.6rem;
+                            span{
+                                color: #333;
+                                position: absolute;
+                                top: 60px;
+                                right: 30px;
+                                font-size: 1.7rem;
+                                font-weight: 700;
+                            }
+                         }
+                     }
+                    #yorumNav {
+                        position: relative;
+                        left: 310px;
+                        li {
+                            display: inline-block;
+                            margin-left: 5px;
+                            width: 10px;
+                            height: 10px;
+                            float: left;
+                            border: 2px solid white;
+                            display: block;
+                            border-radius: 50%;
+                        }
+                        .yorumNavActive{
+                            background-color: white;
+                        }
+                    }
+                }
+
+        }
+    }
+        
+    
+}
+.wrap{
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+    
+    
+}
+footer{
+        height: 80px;
+        position: relative;
+        z-index: 999;
+        bottom: 0;
+        width: 100%;
+        background-color: #3c97e8;
+        .footerYazi{
+                width: 545px;
+                margin: 0 auto;
+                text-align: center;
+                padding-top: 30px;
+                span{
+                    &:nth-child(1)
+                    {
+                        color: white;
+                    }
+                    &:nth-child(2)
+                    {
+                        opacity: 0.7;
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+        }
+}
+html,
+		body {
+			position: relative;
+			height: 100%;
+		}
+		
+		body {
+			background: #eee;
+			//font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+			margin: 0;
+			padding: 0;
+		}
+		
+		

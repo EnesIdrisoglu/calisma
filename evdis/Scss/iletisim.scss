@@ -1,0 +1,66 @@
+.bilgiler{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 60px;
+    h2{
+        text-align: center;
+        font-size: 35px;
+    }
+    span{
+        font-weight: 700;
+    }
+    .adresBilgi{
+        width: 145px;
+        float: left;
+        text-align: center;
+    }
+    .telMail{
+        float: left;
+        text-align: center;
+        width: 120px;
+        margin-left: 380px;
+    }
+    .socialMedia{
+        width: 150px;
+        float: left;
+        text-align: center;
+        margin-left: 360px;
+        ul{
+            margin-top: 20px;
+            margin-left: 10px;
+            li{
+                float: left;
+                width: 37px;
+                height: 37px;
+                border-radius: 50%;
+                text-align: center;
+                background-color: rgba(128, 128, 128, 0.16);
+                &:nth-child(2)
+                {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                i{
+                    font-size: 25px;
+                    color: rgba(0, 0, 0, 0.56);
+                }
+                &:hover{
+                    background-color: rgba(128, 128, 128, 0.42);
+                }
+            }
+        }
+    }
+}
+
+
+.Map{
+    position: relative;
+    top: 75px;
+    margin-bottom: 70px;
+    
+}
+iframe{
+        .i4ewOd-pzNkMb-haAclf{
+    display: none !important;
+}
+}

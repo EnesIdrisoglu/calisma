@@ -1,0 +1,599 @@
+@import url("https://fonts.googleapis.com/css?family=Asap:400,700&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:400,500&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=latin-ext");
+.SliderRev {
+  position: relative;
+  height: 500px;
+  z-index: 99; }
+  .SliderRev .swiper-container {
+    width: 100%;
+    height: 100%;
+    position: fixed; }
+  .SliderRev .swiper-slide {
+    background-position: center;
+    background-size: cover; }
+
+nav li a {
+  color: #526371 !important;
+  font-weight: 400 !important;
+  font-size: 1.8rem !important; }
+nav li:hover a {
+  color: #3c97e8 !important; }
+nav .active a {
+  color: #3c97e8 !important;
+  font-weight: 400 !important;
+  font-size: 1.8rem !important; }
+
+header {
+  position: fixed;
+  z-index: 999; }
+  header img {
+    margin-left: 100px; }
+
+.working-time {
+  position: relative;
+  height: 350px;
+  z-index: 999;
+  background-color: white; }
+  .working-time .maviBolge {
+    position: relative;
+    top: -70px;
+    margin: 0 auto;
+    width: 1200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+    .working-time .maviBolge .menuNav {
+      background-color: white;
+      width: inherit;
+      height: 75px; }
+      .working-time .maviBolge .menuNav li {
+        float: left;
+        width: 50%;
+        height: inherit;
+        font-size: 26px;
+        padding-left: 30px;
+        padding-top: 20px;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        cursor: pointer; }
+      .working-time .maviBolge .menuNav li:not(.active):hover, .working-time .maviBolge .menuNav li.active {
+        background-color: #3c97e8;
+        color: white; }
+    .working-time .maviBolge .DortluAlan {
+      width: 100%;
+      height: 220px;
+      background-color: #3c97e8;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px; }
+      .working-time .maviBolge .DortluAlan #Hakkimizda {
+        display: block; }
+      .working-time .maviBolge .DortluAlan #Musteri {
+        display: none; }
+        .working-time .maviBolge .DortluAlan #Musteri i {
+          position: absolute;
+          color: white;
+          font-size: 90px;
+          left: 165px;
+          top: 86px;
+          opacity: 0.2; }
+    .working-time .maviBolge .dortunBir {
+      float: left;
+      width: 292.5px;
+      height: 220px;
+      position: relative; }
+      .working-time .maviBolge .dortunBir table {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        width: 250px;
+        color: white; }
+        .working-time .maviBolge .dortunBir table tbody {
+          line-height: 30px;
+          font-weight: 300; }
+          .working-time .maviBolge .dortunBir table tbody tr {
+            border-bottom: 1px solid white; }
+      .working-time .maviBolge .dortunBir .baslik {
+        text-align: center;
+        margin-top: 40px; }
+        .working-time .maviBolge .dortunBir .baslik i {
+          font-size: 24px;
+          color: #dfdfdf; }
+        .working-time .maviBolge .dortunBir .baslik span {
+          font-size: 22px;
+          color: white;
+          margin-left: 10px; }
+        .working-time .maviBolge .dortunBir .baslik a {
+          width: 50%;
+          padding: 2px;
+          height: 28px;
+          border-radius: 14px;
+          border: 2px solid #fff;
+          display: block;
+          color: #fff;
+          margin: 7px auto;
+          transition: .1s all ease; }
+          .working-time .maviBolge .dortunBir .baslik a:hover {
+            background: #fff;
+            color: #0015a1;
+            font-weight: 400; }
+      .working-time .maviBolge .dortunBir h2 {
+        position: absolute;
+        top: 120px;
+        left: 25px;
+        color: #acefe2;
+        font-size: 24px; }
+      .working-time .maviBolge .dortunBir p {
+        position: absolute;
+        top: 110px;
+        display: table;
+        vertical-align: middle;
+        text-align: center;
+        color: #d8d7d7;
+        font-size: 16px; }
+    .working-time .maviBolge .AcilDurum {
+      width: 585px;
+      height: 220px;
+      float: left;
+      position: relative; }
+      .working-time .maviBolge .AcilDurum .baslik {
+        text-align: center;
+        margin-top: 40px; }
+        .working-time .maviBolge .AcilDurum .baslik img {
+          width: 70px; }
+        .working-time .maviBolge .AcilDurum .baslik i {
+          font-size: 24px;
+          color: #dfdfdf; }
+        .working-time .maviBolge .AcilDurum .baslik span {
+          font-size: 22px;
+          color: white;
+          margin-left: 10px; }
+      .working-time .maviBolge .AcilDurum h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 3rem; }
+      .working-time .maviBolge .AcilDurum p {
+        text-align: center;
+        color: #d8d7d7; }
+    .working-time .maviBolge .unslider .YorumContainer {
+      position: relative;
+      width: 750px;
+      height: 220px;
+      color: white;
+      margin: 0 auto; }
+      .working-time .maviBolge .unslider .YorumContainer ul {
+        position: relative;
+        margin: 0 !important;
+        padding: 0; }
+        .working-time .maviBolge .unslider .YorumContainer ul li {
+          height: 100px;
+          position: relative;
+          float: left;
+          margin-top: 50px;
+          font-size: 1.6rem; }
+          .working-time .maviBolge .unslider .YorumContainer ul li span {
+            color: #333;
+            position: absolute;
+            top: 60px;
+            right: 30px;
+            font-size: 1.7rem;
+            font-weight: 700; }
+      .working-time .maviBolge .unslider .YorumContainer #yorumNav {
+        position: relative;
+        left: 310px; }
+        .working-time .maviBolge .unslider .YorumContainer #yorumNav li {
+          display: inline-block;
+          margin-left: 5px;
+          width: 10px;
+          height: 10px;
+          float: left;
+          border: 2px solid white;
+          display: block;
+          border-radius: 50%; }
+        .working-time .maviBolge .unslider .YorumContainer #yorumNav .yorumNavActive {
+          background-color: white; }
+
+.wrap {
+  position: relative;
+  top: 70px;
+  overflow: hidden; }
+
+footer {
+  height: 80px;
+  position: relative;
+  z-index: 999;
+  bottom: 0;
+  width: 100%;
+  background-color: #3c97e8; }
+  footer .footerYazi {
+    width: 545px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px; }
+    footer .footerYazi span:nth-child(1) {
+      color: white; }
+    footer .footerYazi span:nth-child(2) {
+      opacity: 0.7; }
+      footer .footerYazi span:nth-child(2) a {
+        color: white; }
+
+html,
+body {
+  position: relative;
+  height: 100%; }
+
+body {
+  background: #eee;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0; }
+
+.ustFoto {
+  position: relative;
+  height: 270px;
+  overflow: hidden; }
+  .ustFoto .Fotobanner {
+    height: 100%; }
+    .ustFoto .Fotobanner img {
+      width: 100%;
+      transform: scale(1.3); }
+  .ustFoto .EkipBaslik {
+    position: absolute;
+    top: 50px;
+    left: 110px; }
+    .ustFoto .EkipBaslik h1 {
+      font-size: 70px;
+      color: white;
+      margin: 0 !important; }
+    .ustFoto .EkipBaslik span {
+      color: white;
+      position: absolute;
+      left: 4px;
+      width: 400px; }
+
+.sayfaAd {
+  position: absolute;
+  bottom: 30px;
+  left: 110px; }
+  .sayfaAd span {
+    margin-right: 5px;
+    margin-left: 5px; }
+    .sayfaAd span:nth-child(3) a {
+      color: white !important; }
+    .sayfaAd span a {
+      color: #3695eb; }
+  .sayfaAd i {
+    font-size: 17px;
+    color: white; }
+
+.EkipMain {
+  position: relative;
+  margin: 0 auto;
+  top: 70px;
+  width: 1200px;
+  height: 1500px; }
+  .EkipMain .doctors {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 30px; }
+    .EkipMain .doctors .DrAd {
+      font-weight: 700;
+      font-size: 20px; }
+    .EkipMain .doctors .DrBilgi {
+      width: 320px;
+      height: inherit;
+      margin: 0 auto;
+      position: relative;
+      text-align: center; }
+      .EkipMain .doctors .DrBilgi .doctorFoto {
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
+        top: 10px;
+        border-radius: 50%;
+        margin: 0 auto;
+        box-shadow: 0px 0px 6px 6px #c3c3c3; }
+        .EkipMain .doctors .DrBilgi .doctorFoto img {
+          width: 300px;
+          height: 300px;
+          border-radius: 50%; }
+        .EkipMain .doctors .DrBilgi .doctorFoto:hover > .detail {
+          transform: scale(0.95); }
+        .EkipMain .doctors .DrBilgi .doctorFoto .detail {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: #3695eb;
+          color: #fff;
+          opacity: .94;
+          border-radius: 50%;
+          transform: scale(0);
+          transition: .3s all ease-out; }
+          .EkipMain .doctors .DrBilgi .doctorFoto .detail p {
+            display: block;
+            width: 80%;
+            top: 50%;
+            color: #fff;
+            height: 50%;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 100;
+            font-size: 15px;
+            overflow: hidden;
+            opacity: 1; }
+      .EkipMain .doctors .DrBilgi h3 {
+        padding: 10px;
+        margin-top: -5px;
+        margin-bottom: 0;
+        font-weight: 100; }
+      .EkipMain .doctors .DrBilgi .tooltiptext {
+        visibility: hidden;
+        width: 340px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 5px;
+        position: absolute;
+        z-index: 1;
+        top: -35%;
+        left: -17%;
+        opacity: 0;
+        transition: opacity 1s; }
+        .EkipMain .doctors .DrBilgi .tooltiptext:after {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -5px;
+          border-width: 5px;
+          border-style: solid;
+          border-color: black transparent transparent transparent; }
+      .EkipMain .doctors .DrBilgi:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1; }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; }
+
+.ustFoto .GaleriBaslik {
+  position: absolute;
+  top: 30px;
+  left: 110px; }
+  .ustFoto .GaleriBaslik h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white; }
+
+.uclu {
+  position: relative;
+  top: 70px;
+  width: 1170px;
+  margin: 0 auto; }
+  .uclu .buyukFoto {
+    width: 381.7px;
+    height: 220px;
+    float: left;
+    margin-bottom: 10px; }
+    .uclu .buyukFoto:nth-child(3n-1) {
+      margin-left: 10px;
+      margin-right: 10px; }
+    .uclu .buyukFoto .overlay {
+      width: 381.7px;
+      height: 220px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      transform: scale(0);
+      transition: 0.3s all ease-in-out; }
+      .uclu .buyukFoto .overlay i {
+        position: absolute;
+        top: 32%;
+        left: 42%;
+        font-size: 72px;
+        color: white; }
+    .uclu .buyukFoto img {
+      width: 100%;
+      height: 100%; }
+    .uclu .buyukFoto:hover .overlay {
+      transform: scale(1); }
+
+.altili {
+  position: relative;
+  top: 80px;
+  height: 500px;
+  width: 1170px;
+  margin: 0 auto; }
+  .altili .ortaFoto {
+    width: 190px;
+    height: 110px;
+    float: left; }
+    .altili .ortaFoto:nth-child(n+2) {
+      margin-left: 5px; }
+    .altili .ortaFoto .overlayUfak {
+      width: 190px;
+      height: 110px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      transform: scale(0);
+      transition: 0.3s all ease-in-out; }
+      .altili .ortaFoto .overlayUfak i {
+        position: absolute;
+        top: 32%;
+        left: 42%;
+        font-size: 44px;
+        color: white; }
+    .altili .ortaFoto img {
+      width: 100%;
+      height: 100%; }
+    .altili .ortaFoto:hover .overlayUfak {
+      transform: scale(1); }
+
+.bilgiler {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 60px; }
+  .bilgiler h2 {
+    text-align: center;
+    font-size: 35px; }
+  .bilgiler span {
+    font-weight: 700; }
+  .bilgiler .adresBilgi {
+    width: 145px;
+    float: left;
+    text-align: center; }
+  .bilgiler .telMail {
+    float: left;
+    text-align: center;
+    width: 120px;
+    margin-left: 380px; }
+  .bilgiler .socialMedia {
+    width: 150px;
+    float: left;
+    text-align: center;
+    margin-left: 360px; }
+    .bilgiler .socialMedia ul {
+      margin-top: 20px;
+      margin-left: 10px; }
+      .bilgiler .socialMedia ul li {
+        float: left;
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.16); }
+        .bilgiler .socialMedia ul li:nth-child(2) {
+          margin-left: 10px;
+          margin-right: 10px; }
+        .bilgiler .socialMedia ul li i {
+          font-size: 25px;
+          color: rgba(0, 0, 0, 0.56); }
+        .bilgiler .socialMedia ul li:hover {
+          background-color: rgba(128, 128, 128, 0.42); }
+
+.Map {
+  position: relative;
+  top: 75px;
+  margin-bottom: 70px; }
+
+iframe .i4ewOd-pzNkMb-haAclf {
+  display: none !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  background: #fff !important; }
+
+/** Slider **/
+.slider-wrapper {
+  position: fixed !important;
+  z-index: -1 !important;
+  margin: 70px auto;
+  border: 0 solid transparent !important;
+  background: #f1f1f1 !important;
+  box-shadow: 0 0 0 transparent !important; }
+
+.fs_loader {
+  background: #f1f1f1 !important;
+  height: 700px; }
+
+#sloganS {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: #526371 !important; }
+
+#sloganS2 {
+  font-family: 'Asap', sans-serif;
+  font-size: 5.2rem;
+  font-weight: 500;
+  color: #fff;
+  opacity: 1; }
+  #sloganS2 span:first-child {
+    opacity: 1;
+    transform: scale(1);
+    animation: 1s slogns; }
+  #sloganS2 span:last-child {
+    opacity: 1;
+    transform: scale(1);
+    animation-name: slogns;
+    animation-duration: 1s; }
+
+@keyframes slogns {
+  from {
+    transform: scale(3.5);
+    opacity: 0; }
+  to {
+    transform: scale(1);
+    opacity: 1; } }
+#cerrah {
+  height: 431px !important;
+  width: auto !important;
+  left: 3% !important;
+  top: 2% !important;
+  transform: scale(1.5);
+  animation: 15s cerrahani; }
+
+@keyframes cerrahani {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.5); } }
+.slidericons {
+  padding: 10px; }
+  .slidericons img {
+    margin: 0 45px !important;
+    width: 90px !important;
+    height: 90px !important;
+    cursor: pointer; }
+    .slidericons img:hover ~ span {
+      opacity: 1;
+      visibility: visible; }
+  .slidericons span {
+    line-height: 14px;
+    color: #526371;
+    width: 180px !important;
+    font-weight: 500;
+    display: block !important;
+    margin-top: 5px;
+    text-align: center;
+    opacity: 1;
+    transition: .1s all ease; }
+
+blockquote {
+  font-size: 18px;
+  display: block;
+  width: 500px !important; }
+
+.okayNav-header a {
+  margin-left: 4%; }
+.okayNav-header nav {
+  margin-right: 6%; }
+
+#kadin {
+  transform: scale(1) translate(-80px, -20px);
+  animation: 1s kadina; }
+
+@keyframes kadina {
+  from {
+    transform: scale(0) translate(0, 0); }
+  to {
+    transform: scale(1) translate(-80px, -20px); } }
+#ekip {
+  transform: scale(0.9) translate(-80px, -20px);
+  animation: 1.5s ekipan; }
+
+@keyframes ekipan {
+  from {
+    transform: scale(0) translate(0, 0); }
+  to {
+    transform: scale(0.9) translate(-80px, -20px); } }
+
+/*# sourceMappingURL=style.css.map */
