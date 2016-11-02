@@ -679,7 +679,7 @@ iframe .i4ewOd-pzNkMb-haAclf {
     width: 65% !important; }
     .okayNav-header a img {
       width: 100%; } }
-@media (min-width: 425px) {
+@media (min-width: 425px) and (max-width: 785px) {
   .okayNav-header a {
     margin-left: 0 !important; }
 

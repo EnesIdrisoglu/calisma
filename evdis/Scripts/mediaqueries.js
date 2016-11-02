@@ -7,11 +7,11 @@ if(qm.matches)
          var doctor=document.getElementById("kadin");
          doctor.setAttribute("data-position","0.8,420");
      }
-     else{
-         var ekip=document.getElementById("ekip");
-         ekip.setAttribute("data-position","-20,29.7");
-         var doctor=document.getElementById("kadin");
-         doctor.setAttribute("data-position","4,60");
+    //  else{
+    //      var ekip=document.getElementById("ekip");
+    //      ekip.setAttribute("data-position","-20,29.7");
+    //      var doctor=document.getElementById("kadin");
+    //      doctor.setAttribute("data-position","4,60");
 }
 
 window.onresize=function(event)
@@ -23,10 +23,10 @@ window.onresize=function(event)
          var doctor=document.getElementById("kadin");
          doctor.setAttribute("data-position","4,40");
      }
-     else{
-         var ekip=document.getElementById("ekip");
-         ekip.setAttribute("data-position","-20,29.7");
-         var doctor=document.getElementById("kadin");
-         doctor.setAttribute("data-position","4,60");
-     }
+    //  else{
+    //      var ekip=document.getElementById("ekip");
+    //      ekip.setAttribute("data-position","-20,29.7");
+    //      var doctor=document.getElementById("kadin");
+    //      doctor.setAttribute("data-position","4,60");
+    //  }
 }
