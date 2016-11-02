@@ -26,13 +26,10 @@ nav .active a {
 
 header {
   position: fixed;
-  z-index: 999; }
-  header img {
-    margin-left: 100px; }
+  z-index: 99999; }
 
 .working-time {
   position: relative;
-  height: 350px;
   z-index: 999;
   background-color: white; }
   .working-time .maviBolge {
@@ -191,11 +188,83 @@ header {
           border-radius: 50%; }
         .working-time .maviBolge .unslider .YorumContainer #yorumNav .yorumNavActive {
           background-color: white; }
+    .working-time .maviBolge .MobilKutu {
+      display: none;
+      height: 230px;
+      width: 300px;
+      float: left;
+      background-color: #3c97e8; }
+      .working-time .maviBolge .MobilKutu table {
+        position: absolute;
+        top: 84px;
+        left: 20px;
+        width: 250px;
+        color: white; }
+        .working-time .maviBolge .MobilKutu table tbody {
+          line-height: 40px;
+          font-weight: 500; }
+          .working-time .maviBolge .MobilKutu table tbody tr {
+            border-bottom: 1px solid white; }
+      .working-time .maviBolge .MobilKutu .baslik {
+        text-align: center;
+        padding-top: 30px; }
+        .working-time .maviBolge .MobilKutu .baslik i {
+          font-size: 24px;
+          color: #dfdfdf; }
+        .working-time .maviBolge .MobilKutu .baslik span {
+          font-size: 22px;
+          color: white;
+          margin-left: 10px; }
+        .working-time .maviBolge .MobilKutu .baslik a {
+          width: 50%;
+          padding: 2px;
+          height: 28px;
+          border-radius: 14px;
+          border: 2px solid #fff;
+          display: block;
+          color: #fff;
+          margin: 7px auto;
+          transition: .1s all ease; }
+          .working-time .maviBolge .MobilKutu .baslik a:hover {
+            background: #fff;
+            color: #0015a1;
+            font-weight: 400; }
+      .working-time .maviBolge .MobilKutu h2 {
+        position: absolute;
+        top: 120px;
+        left: 25px;
+        color: #acefe2;
+        font-size: 24px; }
+      .working-time .maviBolge .MobilKutu p {
+        position: absolute;
+        width: inherit;
+        display: table;
+        vertical-align: middle;
+        text-align: center;
+        color: #d8d7d7;
+        font-size: 16px; }
+      .working-time .maviBolge .MobilKutu:nth-child(1) {
+        margin-right: 2px; }
 
 .wrap {
   position: relative;
   top: 70px;
   overflow: hidden; }
+
+.footerAlan {
+  position: relative;
+  width: 1156px;
+  left: 110px;
+  height: 350px; }
+  .footerAlan .footerMetin {
+    float: left;
+    width: 680px; }
+    .footerAlan .footerMetin h3 {
+      font-size: 26px; }
+    .footerAlan .footerMetin p {
+      font-size: 17px; }
+  .footerAlan .footerImg {
+    float: left; }
 
 footer {
   height: 80px;
@@ -216,8 +285,7 @@ footer {
       footer .footerYazi span:nth-child(2) a {
         color: white; }
 
-html,
-body {
+html, body {
   position: relative;
   height: 100%; }
 
@@ -488,6 +556,135 @@ body {
 iframe .i4ewOd-pzNkMb-haAclf {
   display: none !important; }
 
+@media (max-width: 1024px) {
+  .slidericons {
+    display: none !important; }
+
+  #sloganS {
+    display: none !important; }
+
+  .maviBolge {
+    width: 970px !important; }
+    .maviBolge #adres {
+      display: none; }
+
+  .footerAlan {
+    width: 950px !important;
+    left: 50px !important;
+    height: 387px !important; }
+    .footerAlan .footerMetin {
+      width: 474px !important; }
+
+  .uclu {
+    width: 940px !important; }
+    .uclu .buyukFoto {
+      width: 306px !important; }
+
+  .altili {
+    width: 940px !important; }
+    .altili .ortaFoto {
+      width: 183.5px !important;
+      margin-bottom: 5px !important; }
+      .altili .ortaFoto:nth-child(5n+1) {
+        margin-left: 0px !important; } }
+@media (max-width: 768px) {
+  .SliderRev {
+    height: 350px !important; }
+
+  .maviBolge {
+    width: 602px !important; }
+    .maviBolge .menuNav, .maviBolge .DortluAlan {
+      display: none; }
+    .maviBolge .MobilKutu {
+      display: block !important; }
+
+  .footerAlan {
+    width: 695px !important; }
+    .footerAlan .footerMetin {
+      width: 424px !important; }
+      .footerAlan .footerMetin h3 {
+        font-size: 23px; }
+      .footerAlan .footerMetin p {
+        font-size: 15px; }
+    .footerAlan .footerImg {
+      width: 38%;
+      position: relative;
+      top: 80px; }
+      .footerAlan .footerImg img {
+        width: 100%; }
+
+  .uclu {
+    width: 632px !important; }
+    .uclu .buyukFoto {
+      width: 311px !important; }
+      .uclu .buyukFoto:nth-child(2n) {
+        margin-right: 0 !important;
+        margin-left: 10px !important; }
+      .uclu .buyukFoto:nth-child(2n+1) {
+        margin: 0 !important; } }
+@media (max-width: 425px) {
+  .SliderRev {
+    height: 184px  !important; }
+
+  .maviBolge {
+    width: 300px !important;
+    top: -10px !important; }
+    .maviBolge .MobilKutu:nth-child(1) {
+      margin-bottom: 5px; }
+
+  .footerAlan {
+    width: 385px !important;
+    margin: 0 auto;
+    text-align: center;
+    left: 0 !important; }
+    .footerAlan .footerMetin {
+      width: 385px !important; }
+    .footerAlan .footerImg {
+      display: none; } }
+@media (max-width: 375px) {
+  .SliderRev {
+    height: 159px !important; }
+
+  .footerAlan {
+    width: 350px !important;
+    margin: 0 auto;
+    text-align: center;
+    left: 0 !important; }
+    .footerAlan .footerMetin {
+      width: 350px !important; }
+    .footerAlan .footerImg {
+      display: none; } }
+@media (max-width: 320px) {
+  .SliderRev {
+    height: 131px !important; }
+
+  .footerAlan {
+    width: 250px !important; }
+    .footerAlan .footerMetin {
+      width: 250px !important; }
+
+  .maviBolge {
+    width: 205px !important; }
+    .maviBolge .MobilKutu {
+      width: 205px !important;
+      height: 210px !important; }
+      .maviBolge .MobilKutu .baslik {
+        padding-top: 15px !important; }
+      .maviBolge .MobilKutu table {
+        top: 65px !important;
+        left: 7px !important;
+        width: 190px !important; }
+
+  .okayNav-header a {
+    width: 65% !important; }
+    .okayNav-header a img {
+      width: 100%; } }
+@media (min-width: 425px) {
+  .okayNav-header a {
+    margin-left: 0 !important; }
+
+  .okayNav-header nav {
+    margin-right: 0 !important; } }
 body {
   font-family: 'Roboto Condensed', sans-serif !important;
   background: #fff !important; }
@@ -504,6 +701,9 @@ body {
 .fs_loader {
   background: #f1f1f1 !important;
   height: 700px; }
+
+.fs-pager-wrapper {
+  display: none; }
 
 #sloganS {
   font-size: 4.4rem;

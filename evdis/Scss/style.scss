@@ -2,6 +2,7 @@
 @import "doctors";
 @import "gallery";
 @import "iletisim";
+@import "responsive";
 
 @import url('https://fonts.googleapis.com/css?family=Asap:400,700&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:400,500&subset=latin-ext');
@@ -24,6 +25,9 @@ body{
     .fs_loader{
         background: #f1f1f1 !important;
         height: 700px;
+    }
+    .fs-pager-wrapper{
+        display: none;
     }
     #sloganS{
         font-size: 4.4rem;
