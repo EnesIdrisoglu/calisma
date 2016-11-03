@@ -1,6 +1,21 @@
 @media (max-width:1024px)
 {
+    #bubble{
+        display: none !important;
+    }
+    .slidericons{
+        display: none !important;
+    }
+    #sloganS{
+        display: none !important;
+    }
+}
 
+@media (min-width:1000px) and (max-width:1225px)
+{
+    #bubble{
+        display: none !important;
+    }
     .slidericons{
         display: none !important;
     }
@@ -15,8 +30,8 @@
     }
     .footerAlan{
         width: 950px !important;
-        left: 50px !important;
-        height: 387px !important;
+        //left: 50px !important;
+        //height: 387px !important;
         .footerMetin{
             width: 474px !important;
         }
@@ -41,8 +56,154 @@
         }
     }
 }
-@media (max-width:768px)
+@media (max-width:999px)
 {
+    .slide{
+        a{
+            display: none !important;
+        }
+    }
+    .maviBolge{
+        width: 602px !important;
+        .menuNav,.DortluAlan{
+            display: none;
+        }
+        .MobilKutu{
+            display: block !important;
+        }
+    }
+}
+@media (max-width:999px) and (min-width:670px)
+{
+    .ustFoto{
+        height: 185px !important;
+        .GaleriBaslik,.sayfaAd{
+            position: relative;
+            top: 15px;
+            left: 45px;
+        }
+        .GaleriBaslik{
+            h1{
+                font-size: 45px;
+            }
+        }
+    }
+    .uclu{
+        width: 632px !important;
+        .buyukFoto{
+            width: 311px !important;
+            &:nth-child(2n){
+                margin-right: 0 !important;
+                margin-left: 10px !important;
+            }
+            &:nth-child(2n+1){
+                margin: 0 !important;
+            }
+        }
+    }
+    .altili{
+        width: 632px !important;
+        .ortaFoto{
+            width: 207.3px !important;
+            height: 119px !important;
+            margin-bottom: 5px !important;
+            &:nth-child(3n+1){
+                margin-left: 0px !important;
+            }
+        }
+    }
+}
+@media (max-width:669px) and (min-width:426px)
+{
+    .ustFoto{
+        height: 120px !important;
+        .sayfaAd{
+            position: relative;
+            top: 35px;
+            left: 20px;
+            font-size: 14px;
+            i{
+                font-size: 12px;
+            }
+        }
+        .GaleriBaslik{
+            position: relative;
+            top: 15px;
+            left: 25px;
+            h1{
+                font-size: 35px;
+                margin: 0;
+            }
+        }
+    }
+    .uclu{
+        width: 381.7px !important;
+        .buyukFoto{
+            //width: 311px !important;
+           
+           margin:0 0 10px 0 !important;
+        }
+    }
+    .altili{
+        width: 381.7px !important;
+        .ortaFoto{
+            width: 188.35px !important;
+            margin-bottom: 5px !important;
+            &:nth-child(2n+1){
+                margin-left: 0px !important;
+            }
+        }
+    }
+}
+@media (max-width:425px)
+{
+    .ustFoto{
+        height: 90px !important;
+        .sayfaAd{
+            position: relative;
+            top: 35px;
+            left: 20px;
+            font-size: 11px;
+            i{
+                font-size: 12px;
+            }
+        }
+        .GaleriBaslik{
+            position: relative;
+            top: 15px;
+            left: 25px;
+            h1{
+                font-size: 22px;
+                margin: 0;
+            }
+        }
+    }
+    .uclu{
+        width: 295.7px !important;
+        .buyukFoto{
+           width: 295.7px !important;
+           
+           margin:0 0 10px 0 !important;
+        }
+    }
+    .altili{
+        width: 295.7px !important;
+        .ortaFoto{
+            width: 145.35px !important;
+            margin-bottom: 5px !important;
+            &:nth-child(2n+1){
+                margin-left: 0px !important;
+            }
+        }
+    }
+}
+@media (max-width:999px) and (min-width:610px)
+{
+    .slide{
+        a{
+            display: none !important;
+        }
+    }
     .SliderRev{
         height: 350px !important;
     }
@@ -77,21 +238,9 @@
     }
 
 
-    .uclu{
-        width: 632px !important;
-        .buyukFoto{
-            width: 311px !important;
-            &:nth-child(2n){
-                margin-right: 0 !important;
-                margin-left: 10px !important;
-            }
-            &:nth-child(2n+1){
-                margin: 0 !important;
-            }
-        }
-    }
+    
 }
-@media (max-width:425px)
+@media (max-width:609px) and (min-width:300px)
 {
     .SliderRev{
         height: 184px  !important;
@@ -125,12 +274,12 @@
         height: 159px !important;
     }
     .footerAlan{
-        width: 350px !important;
+        width: 90% !important;
         margin: 0 auto;
         text-align: center;
         left: 0 !important;
         .footerMetin{
-            width: 350px !important;
+            width: 100% !important;
         }
         .footerImg{
             display: none;
@@ -142,12 +291,12 @@
     .SliderRev{
         height: 131px !important;
     }
-    .footerAlan{
-        width: 250px !important;
-        .footerMetin{
-            width: 250px !important;
-        }
-    }
+    // .footerAlan{
+    //     width: 250px !important;
+    //     // .footerMetin{
+    //     //     width: 250px !important;
+    //     // }
+    // }
     .maviBolge{
         width: 205px !important;
         .MobilKutu{

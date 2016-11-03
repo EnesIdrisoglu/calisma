@@ -1,11 +1,13 @@
 .ustFoto{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center center;
     .GaleriBaslik{
-         position: absolute;
+         position: relative;
          top: 30px;
          left: 110px;
          h1{
              font-size: 70px;
-             text-align: center;
              color: white;
          }
     }
