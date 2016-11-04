@@ -1,10 +1,18 @@
+$(".doctorFoto").click(function(){
+    $(".Modal").css("display","block");
+    $("body").css("overflow-y","hidden");
+});
+$(".Modal").click(function(){
+    $(".Modal").css("display","none");
+    $("body").css("overflow-y","scroll");
+});
+
 
 
 
     function idAl(id,kendisi)
     {
         
-
         var li=document.getElementsByName("tabs");
         for(i=0;i<li.length;i++){
             li[i].classList.remove('active');
@@ -29,17 +37,13 @@
 
 
 
-
-
-
-
-
 $("#yorumlar").unslider({
     autoplay: false,
     nav: false,
     arrows: false,
     speed: 800
 });
+
 var nav = $('#yorumNav li');
 $(nav).first().addClass('yorumNavActive');
 $('#yorumNav li').mouseenter(function() {

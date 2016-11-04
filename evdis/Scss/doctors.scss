@@ -22,7 +22,7 @@
         span{
             color: white;
             position: absolute;
-            left: 4px;
+            //left: 4px;
             width: 400px;
         }
     }
@@ -53,7 +53,7 @@
     margin: 0 auto;
     top: 70px;
     width: 1200px;
-    height: 1500px;
+    margin-bottom: 100px;
     
     .doctors{
         width: 400px;
@@ -92,8 +92,8 @@
                 margin: 0 auto;
                 box-shadow: 0px 0px 6px 6px rgb(195, 195, 195);
                     img{
-                    width: 300px;
-                    height: 300px;
+                    width: inherit;
+                    height: inherit;
                     border-radius: 50%;
                     
                     //border: 3px solid #3695eb;
@@ -181,5 +181,35 @@
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+}
+
+
+.Modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    text-align: center;
+    display: none;
+    z-index: 9999999;
+    left: 0;
+    top: 0;
+    .icerik{
+            position: relative;
+            top: 140px;
+            color: white;
+            background-color: #3695eb;
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            color: white;
+            text-align: center;
+            border-radius: 50%;
+            p{
+                position: absolute;
+                top: 25%;
+                width: 100%;
+            }
+    }
 }
 

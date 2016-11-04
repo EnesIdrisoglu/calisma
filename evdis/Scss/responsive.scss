@@ -24,8 +24,13 @@
     }
     .maviBolge{
         width: 970px !important;
-        #adres{
-            display: none;
+        .AcilDurum{
+            width: 375px !important;
+        }
+        #Musteri{
+            i{
+                left: 50px !important;
+            }
         }
     }
     .footerAlan{
@@ -55,6 +60,22 @@
             }
         }
     }
+
+
+    .EkipMain{
+        width: 900px;
+        .doctors{
+            width: 300px;
+            height: 300px;
+            .DrBilgi{
+                .doctorFoto{
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+        }
+    }           
+
 }
 @media (max-width:999px)
 {
@@ -77,17 +98,33 @@
 {
     .ustFoto{
         height: 185px !important;
-        .GaleriBaslik,.sayfaAd{
+        .GaleriBaslik,.sayfaAd,.EkipBaslik{
             position: relative;
             top: 15px;
             left: 45px;
         }
-        .GaleriBaslik{
+        .GaleriBaslik,.EkipBaslik{
             h1{
                 font-size: 45px;
             }
         }
+        .EkipBaslik{
+            margin-bottom: 70px;
+        }
     }
+    .EkipMain{
+        width: 670px;
+        .doctors{
+            width: 335px;
+            height: 335px;
+            .DrBilgi{
+                .doctorFoto{
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+        }
+    }   
     .uclu{
         width: 632px !important;
         .buyukFoto{
@@ -126,7 +163,7 @@
                 font-size: 12px;
             }
         }
-        .GaleriBaslik{
+        .GaleriBaslik,.EkipBaslik{
             position: relative;
             top: 15px;
             left: 25px;
@@ -135,7 +172,30 @@
                 margin: 0;
             }
         }
+        .EkipBaslik{
+            margin-bottom: 20px;
+            h1{
+                font-size: 27px !important;
+            }
+        }
     }
+    .EkipMain{
+        width: 420px;
+        .doctors{
+            width: 210px;
+            height: 240px;
+            .DrBilgi{
+                width: 210px;
+                .doctorFoto{
+                    width: 160px;
+                    height: 160px;
+                    &:hover .detail{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }   
     .uclu{
         width: 381.7px !important;
         .buyukFoto{
@@ -155,6 +215,15 @@
         }
     }
 }
+@media (min-width:669px)
+{
+    .Modal{
+        display: none !important;
+    }
+    body{
+        overflow-y: scroll !important;
+    }
+}
 @media (max-width:425px)
 {
     .ustFoto{
@@ -168,7 +237,7 @@
                 font-size: 12px;
             }
         }
-        .GaleriBaslik{
+        .GaleriBaslik,.EkipBaslik{
             position: relative;
             top: 15px;
             left: 25px;
@@ -177,7 +246,30 @@
                 margin: 0;
             }
         }
+        .EkipBaslik{
+            margin-bottom: 0px;
+            span{
+                font-size: 12px !important;
+            }
+        }
     }
+    .EkipMain{
+        width: 320px;
+        .doctors{
+            width: 320px;
+            height: 260px;
+            .DrBilgi{
+                width: 320px;
+                .doctorFoto{
+                    width: 175px;
+                    height: 175px;
+                    &:hover .detail{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }   
     .uclu{
         width: 295.7px !important;
         .buyukFoto{

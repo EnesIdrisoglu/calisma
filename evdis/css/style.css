@@ -273,7 +273,6 @@ footer {
   width: 100%;
   background-color: #3c97e8; }
   footer .footerYazi {
-    width: 545px;
     margin: 0 auto;
     text-align: center;
     padding-top: 30px; }
@@ -316,7 +315,6 @@ body {
     .ustFoto .EkipBaslik span {
       color: white;
       position: absolute;
-      left: 4px;
       width: 400px; }
 
 .sayfaAd {
@@ -339,7 +337,7 @@ body {
   margin: 0 auto;
   top: 70px;
   width: 1200px;
-  height: 1500px; }
+  margin-bottom: 100px; }
   .EkipMain .doctors {
     width: 400px;
     height: 400px;
@@ -366,8 +364,8 @@ body {
         margin: 0 auto;
         box-shadow: 0px 0px 6px 6px #c3c3c3; }
         .EkipMain .doctors .DrBilgi .doctorFoto img {
-          width: 300px;
-          height: 300px;
+          width: inherit;
+          height: inherit;
           border-radius: 50%; }
         .EkipMain .doctors .DrBilgi .doctorFoto:hover > .detail {
           transform: scale(0.95); }
@@ -433,6 +431,32 @@ body {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; }
+
+.Modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  text-align: center;
+  display: none;
+  z-index: 9999999;
+  left: 0;
+  top: 0; }
+  .Modal .icerik {
+    position: relative;
+    top: 140px;
+    color: white;
+    background-color: #3695eb;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    color: white;
+    text-align: center;
+    border-radius: 50%; }
+    .Modal .icerik p {
+      position: absolute;
+      top: 25%;
+      width: 100%; }
 
 .ustFoto {
   background-image: url(../img/header.jpg);
@@ -510,7 +534,7 @@ body {
       transform: scale(1); }
 
 .bilgiler {
-  width: 1170px;
+  width: 70%;
   margin: 0 auto;
   margin-top: 60px; }
   .bilgiler h2 {
@@ -526,12 +550,12 @@ body {
     float: left;
     text-align: center;
     width: 120px;
-    margin-left: 380px; }
+    margin-left: 28%; }
   .bilgiler .socialMedia {
     width: 150px;
     float: left;
     text-align: center;
-    margin-left: 360px; }
+    margin-left: 28%; }
     .bilgiler .socialMedia ul {
       margin-top: 20px;
       margin-left: 10px; }
@@ -546,18 +570,20 @@ body {
           margin-left: 10px;
           margin-right: 10px; }
         .bilgiler .socialMedia ul li i {
-          font-size: 25px;
-          color: rgba(0, 0, 0, 0.56); }
+          font-size: 25px; }
         .bilgiler .socialMedia ul li:hover {
           background-color: rgba(128, 128, 128, 0.42); }
+        .bilgiler .socialMedia ul li .ion-social-facebook {
+          color: #3b5998; }
+        .bilgiler .socialMedia ul li .ion-social-twitter {
+          color: #00aced; }
+        .bilgiler .socialMedia ul li .ion-social-googleplus {
+          color: #dd4b39; }
 
 .Map {
   position: relative;
   top: 75px;
   margin-bottom: 70px; }
-
-iframe .i4ewOd-pzNkMb-haAclf {
-  display: none !important; }
 
 @media (max-width: 1024px) {
   #bubble {
@@ -580,8 +606,10 @@ iframe .i4ewOd-pzNkMb-haAclf {
 
   .maviBolge {
     width: 970px !important; }
-    .maviBolge #adres {
-      display: none; }
+    .maviBolge .AcilDurum {
+      width: 375px !important; }
+    .maviBolge #Musteri i {
+      left: 50px !important; }
 
   .footerAlan {
     width: 950px !important; }
@@ -599,7 +627,16 @@ iframe .i4ewOd-pzNkMb-haAclf {
       width: 183.5px !important;
       margin-bottom: 5px !important; }
       .altili .ortaFoto:nth-child(5n+1) {
-        margin-left: 0px !important; } }
+        margin-left: 0px !important; }
+
+  .EkipMain {
+    width: 900px; }
+    .EkipMain .doctors {
+      width: 300px;
+      height: 300px; }
+      .EkipMain .doctors .DrBilgi .doctorFoto {
+        width: 250px;
+        height: 250px; } }
 @media (max-width: 999px) {
   .slide a {
     display: none !important; }
@@ -613,12 +650,23 @@ iframe .i4ewOd-pzNkMb-haAclf {
 @media (max-width: 999px) and (min-width: 670px) {
   .ustFoto {
     height: 185px !important; }
-    .ustFoto .GaleriBaslik, .ustFoto .sayfaAd {
+    .ustFoto .GaleriBaslik, .ustFoto .sayfaAd, .ustFoto .EkipBaslik {
       position: relative;
       top: 15px;
       left: 45px; }
-    .ustFoto .GaleriBaslik h1 {
+    .ustFoto .GaleriBaslik h1, .ustFoto .EkipBaslik h1 {
       font-size: 45px; }
+    .ustFoto .EkipBaslik {
+      margin-bottom: 70px; }
+
+  .EkipMain {
+    width: 670px; }
+    .EkipMain .doctors {
+      width: 335px;
+      height: 335px; }
+      .EkipMain .doctors .DrBilgi .doctorFoto {
+        width: 250px;
+        height: 250px; }
 
   .uclu {
     width: 632px !important; }
@@ -648,13 +696,30 @@ iframe .i4ewOd-pzNkMb-haAclf {
       font-size: 14px; }
       .ustFoto .sayfaAd i {
         font-size: 12px; }
-    .ustFoto .GaleriBaslik {
+    .ustFoto .GaleriBaslik, .ustFoto .EkipBaslik {
       position: relative;
       top: 15px;
       left: 25px; }
-      .ustFoto .GaleriBaslik h1 {
+      .ustFoto .GaleriBaslik h1, .ustFoto .EkipBaslik h1 {
         font-size: 35px;
         margin: 0; }
+    .ustFoto .EkipBaslik {
+      margin-bottom: 20px; }
+      .ustFoto .EkipBaslik h1 {
+        font-size: 27px !important; }
+
+  .EkipMain {
+    width: 420px; }
+    .EkipMain .doctors {
+      width: 210px;
+      height: 240px; }
+      .EkipMain .doctors .DrBilgi {
+        width: 210px; }
+        .EkipMain .doctors .DrBilgi .doctorFoto {
+          width: 160px;
+          height: 160px; }
+          .EkipMain .doctors .DrBilgi .doctorFoto:hover .detail {
+            display: none; }
 
   .uclu {
     width: 381.7px !important; }
@@ -668,6 +733,12 @@ iframe .i4ewOd-pzNkMb-haAclf {
       margin-bottom: 5px !important; }
       .altili .ortaFoto:nth-child(2n+1) {
         margin-left: 0px !important; } }
+@media (min-width: 669px) {
+  .Modal {
+    display: none !important; }
+
+  body {
+    overflow-y: scroll !important; } }
 @media (max-width: 425px) {
   .ustFoto {
     height: 90px !important; }
@@ -678,13 +749,30 @@ iframe .i4ewOd-pzNkMb-haAclf {
       font-size: 11px; }
       .ustFoto .sayfaAd i {
         font-size: 12px; }
-    .ustFoto .GaleriBaslik {
+    .ustFoto .GaleriBaslik, .ustFoto .EkipBaslik {
       position: relative;
       top: 15px;
       left: 25px; }
-      .ustFoto .GaleriBaslik h1 {
+      .ustFoto .GaleriBaslik h1, .ustFoto .EkipBaslik h1 {
         font-size: 22px;
         margin: 0; }
+    .ustFoto .EkipBaslik {
+      margin-bottom: 0px; }
+      .ustFoto .EkipBaslik span {
+        font-size: 12px !important; }
+
+  .EkipMain {
+    width: 320px; }
+    .EkipMain .doctors {
+      width: 320px;
+      height: 260px; }
+      .EkipMain .doctors .DrBilgi {
+        width: 320px; }
+        .EkipMain .doctors .DrBilgi .doctorFoto {
+          width: 175px;
+          height: 175px; }
+          .EkipMain .doctors .DrBilgi .doctorFoto:hover .detail {
+            display: none; }
 
   .uclu {
     width: 295.7px !important; }
