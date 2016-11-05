@@ -41,7 +41,9 @@
             width: 474px !important;
         }
     }
-
+    #evdisContact{
+        width: 75%;
+    }
 
 
     .uclu{
@@ -149,9 +151,71 @@
             }
         }
     }
+    #evdisContact{
+        width: 100%;
+        h2{
+            width: 30%;
+        }
+    }
 }
-@media (max-width:669px) and (min-width:426px)
+@media (max-width:669px) and (min-width:320px)
 {
+    #evdisContact{
+        width: 100%;
+        h2{
+            width: 60%;
+        }
+        .address{
+            margin-bottom: 30px;
+        }
+        .address,.mailes,.telephone{
+            p{
+                font-size: 1.8rem;                
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .mailes,.telephone{
+            float: none;
+            width: 50%;
+            margin: 0 auto;
+            svg{
+                margin: 0 auto;
+                float:none;
+            }
+            p{
+                width: 100%;
+                text-align: center;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            h4{
+                top: 26px;
+            }
+        }
+        .mailes{
+            h4{
+               // width: 19%;
+                left: 50%;
+                text-align: center;
+                margin: 0 auto;
+                 transform: translateX(-50%);
+                }
+                
+            
+        }
+        .telephone{
+            h4{
+                //width: 34%;
+                text-align: center;
+                left: 50%;
+                margin: 0 auto;
+                transform: translateX(-50%);
+                right: 0;
+            }
+        }
+        
+    }
     .ustFoto{
         height: 120px !important;
         .sayfaAd{

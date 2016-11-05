@@ -249,7 +249,8 @@ header {
 .wrap {
   position: relative;
   top: 70px;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #e4e6e5; }
 
 .footerAlan {
   position: relative;
@@ -271,7 +272,7 @@ footer {
   z-index: 999;
   bottom: 0;
   width: 100%;
-  background-color: #3c97e8; }
+  background-color: #2a4481; }
   footer .footerYazi {
     margin: 0 auto;
     text-align: center;
@@ -588,6 +589,147 @@ body {
   width: 100%;
   height: 500px; }
 
+#evdisContact {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  margin-top: 30px; }
+  #evdisContact h2 {
+    font-size: 3.3rem;
+    color: #444;
+    text-align: center;
+    display: block;
+    padding: 0;
+    width: 20%;
+    border-bottom: 1px solid #a2a2a2;
+    margin: 0 auto 50px auto;
+    padding-bottom: 15px; }
+  #evdisContact .address {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    margin: 0 auto; }
+    #evdisContact .address:hover > svg {
+      transform: scale(1.2); }
+    #evdisContact .address h4 {
+      position: absolute;
+      left: 50%;
+      color: #666;
+      top: 0;
+      font-size: 3.2rem;
+      transform: translateX(-50%); }
+    #evdisContact .address p {
+      position: absolute;
+      top: 60px;
+      font-size: 2.1rem;
+      left: 30px;
+      text-align: center; }
+      #evdisContact .address p a {
+        color: #444; }
+    #evdisContact .address svg {
+      opacity: .1;
+      width: 130px;
+      height: 150px;
+      margin: 0 auto;
+      display: block;
+      transition: .2s all ease; }
+  #evdisContact .telephone {
+    width: 35%;
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px; }
+    #evdisContact .telephone:hover > svg {
+      transform: scale(1.2); }
+    #evdisContact .telephone svg {
+      position: relative;
+      opacity: .1;
+      width: 130px;
+      height: 150px;
+      display: block;
+      float: right;
+      transition: .2s all ease; }
+    #evdisContact .telephone h4 {
+      position: absolute;
+      right: 70px;
+      color: #666;
+      top: 0;
+      font-size: 3.2rem; }
+    #evdisContact .telephone p {
+      position: absolute;
+      top: 60px;
+      font-size: 2.1rem;
+      right: 50px; }
+      #evdisContact .telephone p a {
+        color: #444; }
+  #evdisContact .mailes {
+    width: 35%;
+    float: left;
+    margin: 0 auto 20px 15%;
+    position: relative; }
+    #evdisContact .mailes:hover > svg {
+      transform: scale(1.2); }
+    #evdisContact .mailes h4 {
+      position: absolute;
+      left: 50px;
+      color: #666;
+      top: 0;
+      font-size: 3.2rem; }
+    #evdisContact .mailes p {
+      position: absolute;
+      top: 60px;
+      font-size: 2.1rem;
+      left: 30px; }
+      #evdisContact .mailes p a {
+        color: #444; }
+    #evdisContact .mailes svg {
+      opacity: .1;
+      width: 130px;
+      height: 150px;
+      display: block;
+      transition: .2s all ease; }
+  #evdisContact .socials {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    border-top: 1px solid #a2a2a2; }
+    #evdisContact .socials ul {
+      width: 30%;
+      margin: 0 auto; }
+      #evdisContact .socials ul li {
+        padding-right: 5px;
+        float: left;
+        width: 33%;
+        position: relative;
+        transition: .5s all ease;
+       /*&:hover:after{
+          filter: blur(7px);
+          width: 90%;
+          bottom: -29px;
+       }
+      &:after{
+           content: '';
+           position: absolute;
+           bottom: -9px;
+           left: 50%;
+           transform: translateX(-50%);
+           width: 79%;
+           height: 4px;
+           filter: blur(6.5px);
+           background: #000;
+           border-radius: 100%;
+           margin: 0 auto;
+           transition: .5s all ease;
+           display: block;
+      }*/ }
+        #evdisContact .socials ul li img {
+          width: 100%; }
+        #evdisContact .socials ul li:hover {
+          transform: translateY(-20px); }
+        #evdisContact .socials ul li:after, #evdisContact .socials ul li:before {
+          clear: both; }
+
 @media (max-width: 1024px) {
   #bubble {
     display: none !important; }
@@ -618,6 +760,9 @@ body {
     width: 950px !important; }
     .footerAlan .footerMetin {
       width: 474px !important; }
+
+  #evdisContact {
+    width: 75%; }
 
   .uclu {
     width: 940px !important; }
@@ -688,8 +833,49 @@ body {
       height: 119px !important;
       margin-bottom: 5px !important; }
       .altili .ortaFoto:nth-child(3n+1) {
-        margin-left: 0px !important; } }
-@media (max-width: 669px) and (min-width: 426px) {
+        margin-left: 0px !important; }
+
+  #evdisContact {
+    width: 100%; }
+    #evdisContact h2 {
+      width: 30%; } }
+@media (max-width: 669px) and (min-width: 320px) {
+  #evdisContact {
+    width: 100%; }
+    #evdisContact h2 {
+      width: 60%; }
+    #evdisContact .address {
+      margin-bottom: 30px; }
+    #evdisContact .address p, #evdisContact .mailes p, #evdisContact .telephone p {
+      font-size: 1.8rem;
+      left: 50%;
+      transform: translateX(-50%); }
+    #evdisContact .mailes, #evdisContact .telephone {
+      float: none;
+      width: 50%;
+      margin: 0 auto; }
+      #evdisContact .mailes svg, #evdisContact .telephone svg {
+        margin: 0 auto;
+        float: none; }
+      #evdisContact .mailes p, #evdisContact .telephone p {
+        width: 100%;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%); }
+      #evdisContact .mailes h4, #evdisContact .telephone h4 {
+        top: 26px; }
+    #evdisContact .mailes h4 {
+      left: 50%;
+      text-align: center;
+      margin: 0 auto;
+      transform: translateX(-50%); }
+    #evdisContact .telephone h4 {
+      text-align: center;
+      left: 50%;
+      margin: 0 auto;
+      transform: translateX(-50%);
+      right: 0; }
+
   .ustFoto {
     height: 120px !important; }
     .ustFoto .sayfaAd {
@@ -963,10 +1149,12 @@ blockquote {
   display: block;
   width: 500px !important; }
 
-.okayNav-header a {
-  margin-left: 4%; }
-.okayNav-header nav {
-  margin-right: 6%; }
+.okayNav-header {
+  box-shadow: 0px -1px 8px #333; }
+  .okayNav-header a {
+    margin-left: 4%; }
+  .okayNav-header nav {
+    margin-right: 6%; }
 
 #kadin {
   transform: scale(1) translate(-80px, -20px);
